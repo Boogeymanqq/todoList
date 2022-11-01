@@ -1,0 +1,31 @@
+.indicator__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  color: gray;
+  border-top: 1px solid #000;
+}
+
+p {
+  cursor: pointer;
+}
+
+.indicator__length {
+  cursor: default;
+}
+
+.indicator__items {
+  display: flex;
+  column-gap: 20px;
+}
+
+.indicator__item {
+  border: 1px solid gray;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.item {
+  padding: 5px;
+}

@@ -1,0 +1,11 @@
+.input {
+  padding: 15px 35px;
+  box-sizing: border-box;
+  font-size: 24px;
+  width: 100%;
+}
+
+.block__input::before {
+  content: "";
+  transform: translate(180deg);
+}
